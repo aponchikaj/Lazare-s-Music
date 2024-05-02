@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: AveriaSansLibre;
+    src: url(./assets/font/Averia_Sans_Libre/AveriaSansLibre-Regular.ttf);
+}
